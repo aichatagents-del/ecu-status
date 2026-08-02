@@ -5,18 +5,18 @@
     "icon": "https://ecuchiprepair.com/favicon.ico",
     "slug": "sitio-principal-ecu",
     "status": "down",
-    "uptime": "49.57%",
-    "uptimeDay": "49.57%",
-    "uptimeWeek": "49.57%",
-    "uptimeMonth": "49.57%",
-    "uptimeYear": "49.57%",
+    "uptime": "42.46%",
+    "uptimeDay": "42.46%",
+    "uptimeWeek": "42.46%",
+    "uptimeMonth": "42.46%",
+    "uptimeYear": "42.46%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-02": 5
+      "2026-08-02": 7
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://chip8945125484.com",
     "icon": "https://icons.duckduckgo.com/ip3/chip8945125484.com.ico",
     "slug": "landing-chip-8945125484",
-    "status": "down",
-    "uptime": "98.64%",
-    "uptimeDay": "98.64%",
-    "uptimeWeek": "98.64%",
-    "uptimeMonth": "98.64%",
-    "uptimeYear": "98.64%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "72.94%",
+    "uptimeDay": "72.94%",
+    "uptimeWeek": "72.94%",
+    "uptimeMonth": "72.94%",
+    "uptimeYear": "72.94%",
+    "time": 238,
+    "timeDay": 238,
+    "timeWeek": 238,
+    "timeMonth": 238,
+    "timeYear": 238,
     "dailyMinutesDown": {
-      "2026-08-02": 0
+      "2026-08-02": 2
     }
   },
   {
