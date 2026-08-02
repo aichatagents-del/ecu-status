@@ -1,31 +1,68 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: aichatagents-del
+repo: ecu-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Sitio principal ECU
+    url: https://ecuchiprepair.com
+    icon: https://ecuchiprepair.com/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+    method: GET
+
+  - name: Landing chip 8945125484
+    url: https://chip8945125484.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+    method: GET
+
+  - name: HERMES API
+    url: https://hermes-ecu.onrender.com/health
+    expectedStatusCodes:
+      - 200
+    method: GET
+    maxResponseTime: 30000
+
+  - name: n8n editor
+    url: https://n8n-ecu.onrender.com/healthz
+    expectedStatusCodes:
+      - 200
+      - 401
+      - 403
+    method: GET
+    maxResponseTime: 30000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: ""
+  logoUrl: https://ecuchiprepair.com/favicon.ico
+  name: ECU Chip Repair - Status
+  introTitle: Estado en tiempo real de la infraestructura
+  introMessage: >
+    Monitoreo automático cada 5 minutos de los servicios de ECU Chip Repair.
+    Historial completo de incidentes disponible en el tab Issues.
   navbar:
-    - title: Status
+    - title: Estado
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/aichatagents-del/ecu-status
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+notifications:
+  - type: telegram
+    token: $TELEGRAM_BOT_TOKEN
+    chat: $TELEGRAM_CHAT_ID
+
+user-agent: "ECU-Status-Upptime/1.0 (compatible; Monitor)"
+
+assignees:
+  - aichatagents-del
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updates: "0 3 * * *"
+  updateTemplate: "0 0 * * 3"
