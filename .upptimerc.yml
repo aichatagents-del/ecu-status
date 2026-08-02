@@ -1,24 +1,7 @@
-owner: aichatagents-del
+﻿owner: aichatagents-del
 repo: ecu-status
 
 sites:
-  - name: Sitio principal ECU
-    url: https://ecuchiprepair.com
-    icon: https://ecuchiprepair.com/favicon.ico
-    expectedStatusCodes:
-      - 200
-      - 301
-      - 302
-    method: GET
-
-  - name: Landing chip 8945125484
-    url: https://chip8945125484.com
-    expectedStatusCodes:
-      - 200
-      - 301
-      - 302
-    method: GET
-
   - name: HERMES API
     url: https://hermes-ecu.onrender.com/health
     expectedStatusCodes:
@@ -37,11 +20,10 @@ sites:
 
 status-website:
   cname: ""
-  logoUrl: https://ecuchiprepair.com/favicon.ico
   name: ECU Chip Repair - Status
   introTitle: Estado en tiempo real de la infraestructura
   introMessage: >
-    Monitoreo automático cada 5 minutos de los servicios de ECU Chip Repair.
+    Monitoreo automÃ¡tico cada 5 minutos de los servicios de ECU Chip Repair.
     Historial completo de incidentes disponible en el tab Issues.
   navbar:
     - title: Estado
@@ -66,3 +48,5 @@ workflowSchedule:
   summary: "0 0 * * *"
   updates: "0 3 * * *"
   updateTemplate: "0 0 * * 3"
+
+
