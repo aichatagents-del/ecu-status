@@ -1,45 +1,5 @@
 [
   {
-    "name": "Sitio principal ECU",
-    "url": "https://ecuchiprepair.com",
-    "icon": "https://ecuchiprepair.com/favicon.ico",
-    "slug": "sitio-principal-ecu",
-    "status": "down",
-    "uptime": "71.53%",
-    "uptimeDay": "71.53%",
-    "uptimeWeek": "71.53%",
-    "uptimeMonth": "71.53%",
-    "uptimeYear": "71.53%",
-    "time": 560,
-    "timeDay": 560,
-    "timeWeek": 560,
-    "timeMonth": 560,
-    "timeYear": 560,
-    "dailyMinutesDown": {
-      "2026-08-02": 38
-    }
-  },
-  {
-    "name": "Landing chip 8945125484",
-    "url": "https://chip8945125484.com",
-    "icon": "https://icons.duckduckgo.com/ip3/chip8945125484.com.ico",
-    "slug": "landing-chip-8945125484",
-    "status": "down",
-    "uptime": "78.02%",
-    "uptimeDay": "78.02%",
-    "uptimeWeek": "78.02%",
-    "uptimeMonth": "78.02%",
-    "uptimeYear": "78.02%",
-    "time": 462,
-    "timeDay": 462,
-    "timeWeek": 462,
-    "timeMonth": 462,
-    "timeYear": 462,
-    "dailyMinutesDown": {
-      "2026-08-02": 28
-    }
-  },
-  {
     "name": "HERMES API",
     "url": "https://hermes-ecu.onrender.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/hermes-ecu.onrender.com.ico",
@@ -50,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 209,
-    "timeDay": 209,
-    "timeWeek": 209,
-    "timeMonth": 209,
-    "timeYear": 209,
+    "time": 204,
+    "timeDay": 204,
+    "timeWeek": 204,
+    "timeMonth": 204,
+    "timeYear": 204,
     "dailyMinutesDown": {}
   },
   {
@@ -68,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 176,
-    "timeDay": 176,
-    "timeWeek": 176,
-    "timeMonth": 176,
-    "timeYear": 176,
+    "time": 149,
+    "timeDay": 149,
+    "timeWeek": 149,
+    "timeMonth": 149,
+    "timeYear": 149,
     "dailyMinutesDown": {}
   }
 ]
