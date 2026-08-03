@@ -19,7 +19,8 @@ sites:
     maxResponseTime: 30000
 
 status-website:
-  baseUrl: /ecu-status/`r`n  cname: ""
+  baseUrl: /ecu-status/
+  cname: ""
   name: ECU Chip Repair - Status
   introTitle: Estado en tiempo real de la infraestructura
   introMessage: >
