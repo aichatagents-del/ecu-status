@@ -1,4 +1,4 @@
-﻿owner: aichatagents-del
+owner: aichatagents-del
 repo: ecu-status
 
 sites:
@@ -23,7 +23,7 @@ status-website:
   name: ECU Chip Repair - Status
   introTitle: Estado en tiempo real de la infraestructura
   introMessage: >
-    Monitoreo automÃ¡tico cada 5 minutos de los servicios de ECU Chip Repair.
+    Monitoreo automatico cada 5 minutos de los servicios de ECU Chip Repair.
     Historial completo de incidentes disponible en el tab Issues.
   navbar:
     - title: Estado
