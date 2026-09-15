@@ -22,17 +22,17 @@
     "url": "https://n8n-ecu.onrender.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/n8n-ecu.onrender.com.ico",
     "slug": "n8n-editor",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 223,
-    "timeDay": 159,
-    "timeWeek": 205,
-    "timeMonth": 250,
-    "timeYear": 223,
+    "time": 225,
+    "timeDay": 243,
+    "timeWeek": 220,
+    "timeMonth": 252,
+    "timeYear": 225,
     "dailyMinutesDown": {}
   }
 ]
