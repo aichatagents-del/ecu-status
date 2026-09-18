@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 251,
-    "timeDay": 217,
-    "timeWeek": 203,
+    "time": 253,
+    "timeDay": 352,
+    "timeWeek": 235,
     "timeMonth": 279,
-    "timeYear": 251,
+    "timeYear": 253,
     "dailyMinutesDown": {}
   },
   {
@@ -23,20 +23,21 @@
     "icon": "https://icons.duckduckgo.com/ip3/n8n-ecu.onrender.com.ico",
     "slug": "n8n-editor",
     "status": "down",
-    "uptime": "96.64%",
+    "uptime": "95.80%",
     "uptimeDay": "42.21%",
-    "uptimeWeek": "78.03%",
-    "uptimeMonth": "94.94%",
-    "uptimeYear": "96.64%",
-    "time": 236,
-    "timeDay": 439,
-    "timeWeek": 267,
-    "timeMonth": 270,
-    "timeYear": 236,
+    "uptimeWeek": "72.29%",
+    "uptimeMonth": "93.62%",
+    "uptimeYear": "95.80%",
+    "time": 235,
+    "timeDay": 249,
+    "timeWeek": 272,
+    "timeMonth": 263,
+    "timeYear": 235,
     "dailyMinutesDown": {
-      "2026-09-17": 402,
+      "2026-09-17": 832,
       "2026-09-16": 1440,
-      "2026-09-15": 373
+      "2026-09-15": 373,
+      "2026-09-18": 148
     }
   }
 ]
